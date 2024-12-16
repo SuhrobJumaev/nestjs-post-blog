@@ -1,0 +1,13 @@
+PATCH http://localhost:3000/posts
+Content-Type: application/json
+
+{
+  "id": 10,
+  "title": "What's new with NestJS - updated",
+  "postType": "post",
+  "content": "test post-content",
+  "metaOptions": {
+    "metaValue": "{\"sidebarEnabled\": true, \"footerActive\": true}"
+    },
+  "tags": [1,4]
+}
